@@ -7,10 +7,31 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <container class="container">
      <div class="topnav">
       <a href="index.html">Home</a>
       <a href="music.html">Music</a>
       <a class="active" href="contact.html">Contact</a>
     </div>
+    <div class="container">
+  <form id="form" action="action_page.php">
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="subject">Subject</label>
+    <select id="subject" name="subject">
+      <option value="general">General</option>
+      <option value="booking">Booking</option>
+    </select>
+
+    <label for="inquiry">Inquiry</label>
+    <textarea id="inquiry" name="inquiry" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form> 
+  </container>
+</div>
 </body>
 </html>
