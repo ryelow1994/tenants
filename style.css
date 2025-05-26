@@ -76,7 +76,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* Change the background color of the submit button on hover */
 input[type=submit]:hover {
   background-color: rgba(247, 151, 170, 0.5);
 }
@@ -110,6 +110,14 @@ li {
 li:last-child {
   flex-grow: 10;
 } 
+#spotify {
+  margin-right:2.5%
+}
+@media screen and (max-width: 480px) {
+  #spotify {
+    margin-right:10%;
+  }
+}
 
 @media (max-aspect-ratio: 1/1) {
   li {
