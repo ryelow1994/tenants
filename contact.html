@@ -14,24 +14,29 @@
       <a class="active" href="contact.html">Contact</a>
     </div>
     <div class="container">
-  <form id="form" action="action_page.php">
+  <form id="form" action="https://formsubmit.co/ryelow94@gmail.com" method="POST"> 
+ 
+    <label>Name</label>
+    <input type="text" id="from " name="from" placeholder="jane doe" required>
 
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name..">
-
-    <label for="subject">Subject</label>
-    <select id="subject" name="subject">
+    <label>Email</label>
+    <input type="email" id="email" name="email" placeholder="janejoe@email.com" required>
+    
+    <label>Subject</label>
+    <select id="subject" name="subject" id="subject">
       <option value="general">General</option>
       <option value="booking">Booking</option>
     </select>
 
-    <label for="inquiry">Inquiry</label>
-    <textarea id="inquiry" name="inquiry" placeholder="Write something.." style="height:200px"></textarea>
+    <label>Message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <Label>Submit</Label>
+    <input type="submit">
 
   </form> 
   </container>
 </div>
 </body>
+<script src="index.js"></script>
 </html>
