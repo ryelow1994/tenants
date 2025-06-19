@@ -6,7 +6,7 @@ var michi = "IMG_4705.jpg";
 var nate = "IMG_4754 (1).jpg";
 var ryan = "TENANTS033.jpg";
 
-arr.push(horizontal, vertical, live, michi, nate, ryan);
+arr.push(horizontal, live, michi, nate, ryan);
 
 var imageGallery = document.getElementById("image-gallery")
 
